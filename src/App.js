@@ -1,4 +1,5 @@
 import React from "react";
+import Trips from "./Trips";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
@@ -37,10 +38,6 @@ function App() {
 
 function Home() {
   return <h2>Home</h2>;
-}
-
-function Trips() {
-  return <h2>About</h2>;
 }
 
 function Users() {
