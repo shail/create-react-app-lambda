@@ -19,7 +19,7 @@ class Trips extends React.Component {
   render() {
     const { data } = this.state;
     console.log(data);
-    return <div>Test</div>;
+    return <div>{data}</div>;
   }
 }
 
