@@ -9,7 +9,7 @@ class Trips extends React.Component {
 
   componentDidMount() {
     fetch("https://map-my-trip-example.herokuapp.com/trips")
-      .then((res) => res.json())
+      .then((res) => res.text())
       .then((result) => {
         console.log(result);
         this.setState({ data: result });
