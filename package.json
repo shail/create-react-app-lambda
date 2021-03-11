@@ -10,7 +10,7 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "elliptic": "^6.5.3"
+    "elliptic": "^6.5.4"
   },
   "resolutions": {
     "**/elliptic": "^6.5.3"
